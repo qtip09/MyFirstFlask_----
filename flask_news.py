@@ -17,7 +17,8 @@ from forms import NewsForm
 
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI']  = 'mysql://root:fjy971017@127.0.0.1/flask_test'
+app.config['SQLALCHEMY_DATABASE_URI']  = 'mysql://root:123456@127.0.0.1/flask_test'
+#密码自行修改
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 app.config['SECRET_KEY'] = 'a random string'                                          
 
